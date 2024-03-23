@@ -76,7 +76,7 @@ const App = () => {
           </div>
           <div className="">
             <div className="bg-[#1c1f4a] w-[375px] h-[80px] md:w-[180px] md:h-[140px] rounded-b-lg -mt-7 z-40">
-              <div className="flex flex-row items-center md:flex-col m-5 justify-around gap-3 text-[#6f76c8] transition-all h-full">
+              <div className="flex flex-row items-center md:flex-col md:items-start m-5 justify-around gap-3 text-[#6f76c8] transition-all h-full">
                 <div className="md:mt-5">
                   <button
                     className={timeFrame === "daily" ? "text-[#bdc1ff] " : ""}
